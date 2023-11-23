@@ -1,2 +1,14 @@
+# IDEA
+.idea/
 
-js/lesson1/text
+# Кеші та файли налаштувань
+*.iml
+.DS_Store
+
+# Кеш браузера та тимчасові файли
+*.log
+logs/
+*.log
+*.komodoproject
+.komodotoolbox/
+.komodoide/
