@@ -1,0 +1,36 @@
+@media screen and (max-width: 480px){
+   body {
+       margin: 0;
+   }
+
+    .a, .f {
+        height: 20vh;
+        width: 100vw;
+        background-color: #706c6c;
+    }
+    .main {
+        flex-direction: column;
+    }
+    .bigger_half {
+        width: 100vw;
+        height: 60vh;
+
+    }
+
+    .b {
+        width: 100vw;
+        height: 40vh;
+        background-color: grey;
+    }
+
+    .c, .d, .e {
+        width: 25%;
+        height: 30%;
+        background-color: grey;
+        margin: auto auto;
+    }
+
+    .f {
+        margin: 10px 10px;
+    }
+}

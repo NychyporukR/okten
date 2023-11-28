@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.a {
+    width: calc(100% - 20px);
+    height: 30vh;
+    background-color: grey;
+    margin: 10px;
+}
+
+.bigger_half {
+    width: calc(75% - 20px);
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.b {
+    width: 100%;
+    height: calc(50% - 20px);
+    background-color: grey;
+    margin: 10px;
+}
+
+.c, .d, .e {
+    width: calc(33.33% - 20px);
+    height: calc(50% - 20px);
+    background-color: grey;
+    margin: 10px;
+}
+
+.main {
+    display: flex;
+    margin: 10px 0;
+}
+
+.f {
+    width: 25%;
+    height: calc(70vh - 20px);
+    background-color: grey;
+    margin: 20px 10px 0  0;
+}

@@ -1,0 +1,33 @@
+.form {
+    height: 30vh;
+    width: 25vw;
+    border: 3px solid black;
+    margin: 15vh auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+ .top {
+
+ }
+
+ input[type=text], input[type=email], input[type=password]{
+     padding: 5px;
+     font-weight: bold;
+     margin-bottom: 10px;
+ }
+
+ input[type=submit] {
+     background-color: #ead234;
+     padding: 5px;
+     font-weight: bold;
+ }
+ p {
+     color: #484747;
+     font-size: 13px;
+ }
+ span {
+     color: black;
+     font-size: 14px;
+     font-weight: bold;
+ }

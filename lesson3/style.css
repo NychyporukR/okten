@@ -1,0 +1,26 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+.box{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#blue {
+    background-color: #6a6ad9;
+}
+
+#green {
+    background-color: #66a666;
+}
+
+#red {
+    background-color: #bd6363;
+}

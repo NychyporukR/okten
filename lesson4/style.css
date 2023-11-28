@@ -1,0 +1,55 @@
+.form {
+    width: 35vw;
+    height: 50vh;
+    border: 2px solid grey;
+    margin: 0 auto;
+}
+
+.form .top #instagram {
+ width: 40%;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 3%;
+}
+
+input[type=submit] {
+    margin-top: 3%;
+    width: 103%;
+    background-color: #5cd2fd;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color: white;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.decor {
+    text-decoration: none;
+    color : #5cd2fd;
+}
+
+.bottom {
+    width: 35vw;
+    height: 5vh;
+    border: 2px solid grey;
+    margin: 10vh auto;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}

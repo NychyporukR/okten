@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="stylefour.css">
+</head>
+<body>
+  <form class="form">
+    <h1>Заповніть поля анкети</h1>
+        <div class="form-group">
+            <label for="name">Ваше ім'я:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="surname">Ваше прізвище:</label>
+            <input type="text" id="surname" name="surname" required>
+        </div>
+
+      <div class="sex">
+      <label>Ваша стать : </label>
+      <label for="female">
+          <input type="radio" id="female" name="gender" value="female">
+          Жіноча
+      </label>
+
+      <label for="male">
+          <input type="radio" id="male" name="gender" value="male">
+          Чоловіча
+      </label>
+      </div>
+      <label>Послугами якої мережової компанії користуєтеся :</label>
+      <div class="box">
+          <input type="checkbox" name="Kyivstar" id="kyivstar">
+          <label for="kyivstar">Kyivstar</label>
+          <input type="checkbox" name="Vodafone" id="vodafone">
+          <label for="vodafone">Vodafone</label>
+          <input type="checkbox" name="Life:)" id="life">
+          <label for="life">Life:)</label>
+          <input type="checkbox" name="PeopleNet" id="peoplenet">
+          <label for="peoplenet">PeopleNet</label>
+          <input type="checkbox" name="Utel" id="utel">
+          <label for="utel">Utel</label>
+      </div>
+      <div class="buttons">
+    <input type="submit" value="Надіслати анкету">
+    <input type="button" value="Очистити бланк">
+      </div>
+  </form>
+</body>
+</html>
